@@ -57,7 +57,7 @@ int main() {
         {},                                // C
         {{1, -300}}                        // D
     };
-    int start_node = 0; // Start from node A
+    int start_node = 0;
     bellmanFord(graph, start_node);
     return 0;
 }
